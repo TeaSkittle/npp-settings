@@ -1,0 +1,59 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="43004" Ctrl="no" Alt="yes" Shift="no" Key="71" />
+        <Shortcut id="42035" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41010" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41001" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43001" Ctrl="yes" Alt="no" Shift="no" Key="82" />
+        <Shortcut id="43009" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Move to start of line" Ctrl="yes" Alt="no" Shift="no" Key="65">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Move to end of line" Ctrl="yes" Alt="no" Shift="no" Key="69">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Delete Line" Ctrl="yes" Alt="no" Shift="no" Key="75">
+            <Action type="0" message="2315" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2180" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Go to end of file" Ctrl="no" Alt="yes" Shift="yes" Key="190">
+            <Action type="0" message="2318" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Go to begging of file" Ctrl="no" Alt="yes" Shift="yes" Key="188">
+            <Action type="0" message="2316" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Next line" Ctrl="yes" Alt="no" Shift="no" Key="78">
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Previous line" Ctrl="yes" Alt="no" Shift="no" Key="80">
+            <Action type="0" message="2302" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Move forward" Ctrl="yes" Alt="no" Shift="no" Key="70">
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Move backward" Ctrl="yes" Alt="no" Shift="no" Key="66">
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="Delete character" Ctrl="yes" Alt="no" Shift="no" Key="68">
+            <Action type="0" message="2180" wParam="0" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Chrome" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Safari" Ctrl="yes" Alt="yes" Shift="yes" Key="70">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/%20$(CURRENT_WORD)</Command>
+        <Command name="Google Search" Ctrl="no" Alt="yes" Shift="no" Key="113">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">http://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
+        <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="Open containing folder" Ctrl="no" Alt="no" Shift="no" Key="0">explorer $(CURRENT_DIRECTORY)</Command>
+        <Command name="Open current dir cmd" Ctrl="no" Alt="no" Shift="no" Key="0">cmd /K cd /d $(CURRENT_DIRECTORY)</Command>
+        <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>
