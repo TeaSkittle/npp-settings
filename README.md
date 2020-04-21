@@ -7,7 +7,7 @@ I have created these settings because at my job I can not use emacs on the windo
 ## Cyber.xml
 A slightly edited version of twilight theme, inspired by this emacs theme: [cyberpunk-theme.el](https://github.com/n3mo/cyberpunk-theme.el).
 
-## Shortcuts.xml
+## shortcuts.xml
 These are my keybinding with various macros, I tried to have the basic editing feel of emacs. Obviously can't replicate emacs in Notepad++, but this has a similar feel for the simple text edting controls. Here are the binds I have:
 * C-f	Move forward
 * C-b	Move backward
@@ -19,3 +19,7 @@ These are my keybinding with various macros, I tried to have the basic editing f
 * C-k	Delete line
 * C-r	Search
 * M-g	Go to line	
+
+## Installation
+* Place shortcuts.xml in %AppData%\Notepad++
+* Place Cyber.xml in C:\Program Files (x86)\Notepad++\themes
