@@ -23,3 +23,5 @@ These are my keybinding with various macros, I tried to have the basic editing f
 ## Installation
 * Place shortcuts.xml in %AppData%\Notepad++
 * Place cyber.xml in C:\Program Files (x86)\Notepad++\themes
+* In Notepad++:
+  * Settings -> Style Configurator -> Select theme
