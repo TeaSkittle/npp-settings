@@ -4,7 +4,7 @@
 ## Overview
 I have created these settings because at my job I can not use emacs on the windows machines, but Notepad++ is installed! So I went out of my way to try and recreate as much of my emacs setup in Notepad++, and this is the result of that.
 
-## Cyber.xml
+## cyber.xml
 A slightly edited version of twilight theme, inspired by this emacs theme: [cyberpunk-theme.el](https://github.com/n3mo/cyberpunk-theme.el).
 
 ## shortcuts.xml
@@ -22,4 +22,4 @@ These are my keybinding with various macros, I tried to have the basic editing f
 
 ## Installation
 * Place shortcuts.xml in %AppData%\Notepad++
-* Place Cyber.xml in C:\Program Files (x86)\Notepad++\themes
+* Place cyber.xml in C:\Program Files (x86)\Notepad++\themes
