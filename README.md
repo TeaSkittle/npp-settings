@@ -8,7 +8,7 @@ I have created these settings because at my job I can not use emacs on the windo
 A slightly edited version of the twilight theme, inspired by this emacs theme: [cyberpunk-theme.el](https://github.com/n3mo/cyberpunk-theme.el). Only tested to work with batch, powerscript, and perl files.
 
 ## shortcuts.xml
-These are my keybinding with various macros, I tried to have the basic editing feel of emacs. Obviously can't replicate emacs in Notepad++, but this has a similar feel for the simple text edting controls. Here are the binds I have:
+These are my keybinding with various macros, I tried to have the basic editing feel of emacs. Obviously can't replicate emacs in Notepad++, but this has a similar feel for the simple text editing controls. Here are the binds I have set/changed(everything else has been left to default):
 * C-f	Move forward
 * C-b	Move backward
 * C-n	Next line
