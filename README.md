@@ -1,7 +1,7 @@
 # npp-settings
 
 ## Overview
-I have created these settings because at my job I can not use emacs on the windows machines, but Notepadd++ is installed! So I went out of my way to try and recreate as much of my emacs setup in Notepad++, and this is the result of that.
+I have created these settings because at my job I can not use emacs on the windows machines, but Notepad++ is installed! So I went out of my way to try and recreate as much of my emacs setup in Notepad++, and this is the result of that.
 
 ## Cyber.xml
 A slightly edited version of twilight theme, inspired by this emacs theme: [cyberpunk-theme.el](https://github.com/n3mo/cyberpunk-theme.el).
